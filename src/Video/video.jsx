@@ -9,7 +9,7 @@ function Video(props) {
         setLikesCount(likesCount + 1);
     }
     return (
-        <div className='video'>
+        <li className='video'>
             <img className='video-img' src={img} alt="video image" />
             <p>{title}</p>
             <p>{channelName}</p>
@@ -17,7 +17,7 @@ function Video(props) {
                 <p>Лайки: {likesCount}</p>
                 <button onClick={increaseLikesCount}>Лайк</button>
             </div>
-        </div>
+        </li>
     );
 }
 

@@ -10,4 +10,6 @@
   flex-wrap: wrap;
   column-gap: 5.16rem;
   row-gap: 2rem;
+  list-style: none;
+  padding: 0;
 }
